@@ -1,2 +1,11 @@
-
-
+pyrogram
+tgcrypto
+python-dotenv
+pymongo==3.11
+motor==2.4.0
+dnspython==2.1.0
+requests
+hachoir
+pytgcalls
+pyaes
+PySocks

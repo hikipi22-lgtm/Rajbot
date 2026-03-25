@@ -1,3 +1,5 @@
+motor==2.4.0
+pillow==9.5.0
 aiofiles
 aiohttp
 asyncio
@@ -8,8 +10,6 @@ hachoir
 heroku3
 lyricsgenius 
 pymongo==3.11
-motor==2.4.0
-pillow==9.5.0
 psutil
 py-tgcalls==0.8.6
 pykeyboard

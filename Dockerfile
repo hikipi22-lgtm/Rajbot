@@ -1,7 +1,7 @@
-FROM python:3.10-slim-buster
+FROM python:3.10-slim-bullseye
 
 RUN apt-get update && apt-get upgrade -y && \
-    apt-get install -y gcc python3-dev musl-dev libffi-dev perl make cmake git
+    apt-get install -y gcc python3-dev musl-dev libffi-dev perl make cmake git ffmpeg
 
 WORKDIR /app
 COPY . .
